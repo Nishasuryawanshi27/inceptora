@@ -11,3 +11,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     </BrowserRouter>
   </React.StrictMode>
 );
+<script type="module" src="/src/main.tsx"></script>
+
