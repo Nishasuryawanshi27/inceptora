@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Inceptora - Matchmaking platform connecting students, founders, creators, and professionals" />
+    <title>Inceptora - Find Your Perfect Match</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" "main.tsx"></script>
+  </body>
+</html>
