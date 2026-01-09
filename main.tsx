@@ -1,16 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Inceptora - Matchmaking platform connecting students, founders, creators, and professionals" />
-    <title>Inceptora - Find Your Perfect Match</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+import React, { useState } from 'react'
+import ReactDOM from 'react-dom/client'
+
+const App = () => {
+  const [count, setCount] = useState(0)
+
+  return (
+    <div style={{ padding: '20px', fontFamily: 'Arial' }}>
+      <h1 style={{ color: '#6366f1' }}>🚀 Inceptora</h1>
+      <p>Next-gen professional networking platform built with Figma AI + Supabase. Connect entrepreneurs, startups, and builders.</p>
+      
+      <div style={{ marginTop: '20px' }}>
+        <button 
+          onClick={() => setCount(count + 1)}
+          style={{
+            padding: '10px 20px',
+            background: '#6366f1',
+            color: 'white',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer'
+          }}
+        >
+          Count: {count}
+        </button>
+      </div>
+    </div>
+  )
+}
+
+// RENDER TO PAGE
+const root = ReactDOM.createRoot(document.getElementById('root')!)
+root.render(<App />)
