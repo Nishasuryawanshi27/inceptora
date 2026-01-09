@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,6 +11,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" "main.tsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
