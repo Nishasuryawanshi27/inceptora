@@ -1,4 +1,14 @@
 {
+  "name": "inceptora",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  // ... rest stays same
+}
+{
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
